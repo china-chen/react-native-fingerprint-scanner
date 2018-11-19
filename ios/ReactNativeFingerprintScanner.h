@@ -5,5 +5,5 @@
 #endif
 
 @interface ReactNativeFingerprintScanner : NSObject <RCTBridgeModule>
-
+	- (NSString *_Nonnull)getBiometryType:(LAContext *_Nonnull)context;
 @end
