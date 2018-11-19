@@ -6,8 +6,6 @@
 #import "RCTUtils.h"
 #endif
 
-#import <LocalAuthentication/LocalAuthentication.h>
-
 @implementation ReactNativeFingerprintScanner
 
 RCT_EXPORT_MODULE();
